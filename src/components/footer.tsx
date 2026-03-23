@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='lg:max-w-7xl text-background flex flex-col gap-16 px-5 md:px-16'>
                 <div className='flex flex-col gap-7'>
                     <h2 className='text-[43px] font-bold'>What I Offer</h2>
-                    <div className='grid grid-cols-3 justify-items-center text-[32px]'>
+                    <div className='grid grid-cols-3 justify-items-stretch text-[32px]'>
                         <p>Event Branding</p>
                         <p>Logo design</p>
                         <p>Social Media design</p>
@@ -24,12 +24,12 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center gap-4'>
-                        <FaBehance size={40} href='/' className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' />
-                        <FaXTwitter size={40} href='/' className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' />
-                        <FaInstagram size={40} href='/' className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' />
-                        <FaLinkedinIn size={40} href='/' className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' />
+                        <a href='https://www.behance.net/oluomaanuebunwa'><FaBehance size={40} className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' /></a>
+                        <a href='https://x.com/__omaaaaa'><FaXTwitter size={40} className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' /></a>
+                        <a href='https://www.instagram.com/__omaaaaa'><FaInstagram size={40} className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' /></a>
+                        <a href='https://www.linkedin.com/in/oluoma-anuebunwa'><FaLinkedinIn size={40} className='text-background cursor-pointer transition-all duration-300 hover:text-[#EE51B4]' /></a>
                     </div>
-                    <p className='text-[32px]'>anuebunwaoluoma@gmail.com</p>
+                    <a href="mailto:anuebunwaoluoma@gmail.com" className="text-[32px] cursor-pointer transition-all duration-300 hover:text-[#EE51B4]">anuebunwaoluoma@gmail.com</a>
                 </div>
             </div>
         </section>
